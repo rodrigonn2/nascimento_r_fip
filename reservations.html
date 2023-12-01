@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Couples Resort - Reservations</title>
+</head>
+    <body>
+        <h1 class="hidden">Welcome to The Couples Resort</h1>
+        <!-- Main Nav -->         
+            <header class="grid-con" id="main-header">
+                <nav id="main-nav" class="col-span-full">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <input type="checkbox" id="hamburger">
+                    <label for="hamburger">
+                    <img src="images/burger.svg" alt="hamburger menu icon">
+                    </label>
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Rooms</a></li>
+                            <li><a href="#">Packages</a></li>
+                            <li><a href="#">Dining</a></li>
+                            <li><a href="#">Spa Activites</a></li>
+                            <li><a href="reservations.html">Reservations</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="logo" class="col-span-full">
+                    <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+                </div>
+            </header>        
+        <!-- Main Hero -->
+        <section id="hero_reservation" class="grid-con">
+            <h2 class="hidden">Book a stay with us - reservations</h2>                       
+            <!--<div id="book-now-hero" class="book-now col-start-3 col-span-2">
+                <p>Book Now</p>
+            </div>-->
+            <section id="hero-heading-box" class="col-span-full">
+                <h2 class="hero-img-h2">
+                    <span>Couples Resort</span><br> Reservations
+                </h2>
+            </section>
+        </section>
+    <!-- This is the avaliability form -->
+        <div class="grid-con">
+            <section id="hero-summary" class="col-span-full line-separator">
+                <h2 class="hidden">Reservations Introductory information.</h2>
+                <p>Use the reservation system to check the current rates 
+                    for your stay.  Tap here to see more information. </p> 
+            </section>
+        </div>
+        <section class="grid-con">
+            <h2 class="hidden">Reservation form</h2>
+            <div id="reservation-hero-information" class="col-span-full">          
+                <h3>Check availability</h3>      
+            </div>
+            <div id="reservations-hero_form" class="col-span-full">
+                <form action="#" method="post" enctype="text/plain">
+                    <input name="arriving date" type="text" required placeholder="Arriving date">
+                    <input name="number of nights" type="number" min="1" max="20" required placeholder="number of nights" id="nights_form input">
+                    <input name="Guests" type="number" min="1" max="4" required placeholder="guests" class="guests_form">
+                    <input name="submit" type="submit" value="Let's Create Something Special">
+                </form>
+            </div>
+        </section>    
+
+    <!--end of avaliability form-->
+
+    <!--What is included section-->
+        <section class="col-span-full">
+            <h2 class="hidden">What is included in your stay</h2>
+                <div id="included-information" class="grid-con">
+                        <div class="col-span-full">
+                            <h3>What is included</h3>       
+                            <h4>FREE</h4>
+                                <p>Come Feed the Chick-a-dees and Canada Jays right out of your hand!</p>
+                                <p>Algonquin Park Endless Hiking!</p>
+                                <p>Algonquin Park Museums</p>
+                                <p>Billiards, Darts, Shufffle Board, FussBall. Gym and Sauna Room.</p>
+                            <hr class="hr_line">
+                                    <h4>ALL INCLUSIVE</h4>
+                                <p>5-STAR CLASSIC DINING ROOM with a 5-COURSE GOURMET DINNER!</p>
+                                <p>DINNER = DINING ROOM or you can still do Gourmet Room-Service!</p>
+                                <p>BREAKFAST IN BED!</p>               
+                </div>
+        </section>
+
+       <!--To help you better section-->
+        <section class="col-span-full">
+            <h2 class="hidden">Alergic important information</h2>
+            <div id="to-help-you-better-information" class="grid-con">
+                    <div class="col-span-full">
+                        <h3>To help you better</h3> 
+                            <p>Food Allergies - Please enter the type of food allergy.</p>
+                            <p>Our rooms have down duvet and pillows, if allergic to feathers indicate if both are to be removed or just the pillows.</p>
+                            <p>Dress Code in effect. Couples Dress up, men wear a Jacket or collared shirt. No Hats.</p>
+                            <p>See web site and Facebook for meal samples and pics. We Cook Fresh and to Order. We Cater to All food diets/allergies.</p>   
+            </div>
+        </section>
+        <!--end-->
+
+         <!--promotions section-->
+        <section class="col-span-full">
+            <h2 class="hidden">Look and contact us for extra discounts and conditions</h2>
+            <div id="included-promotion-information" class="grid-con">
+                    <div class="col-span-full">
+                            <p>LOOK for Extra Nights for Extra Big Discounts & Sometimes FREE!!!</p>
+                            <p>Algonquin Park Endless Hiking!</p>
+                            <p>Algonquin Park Museums</p>
+                            <p>Billiards, Darts, Shufffle Board, FussBall. Gym and Sauna Room.</p>   
+            </div>
+        </section>
+        <!--end-->
+
+         <!--reservation section-->
+         <section class="col-span-full">
+            <h2 class="hidden">Reservations important information</h2>
+            <div id="reservation-information" class="grid-con">
+                    <div class="col-span-full">
+                        <h3>Reservations & Booking Information</h3> 
+                        <section class="col-span-full faq-items">
+                            <h3>Book Requirements - change date/cancelation fees</h3>
+                        </section>
+                        <section class="col-span-full faq-items">
+                            <h3>Proprierty Policy</h3>
+                        </section>
+                        <section class="col-span-full faq-items">
+                            <h3>Revisions to this Policy</h3>
+                        </section>
+                        <section class="col-span-full faq-items">
+                            <h3>Questions about the Couple Resort's Privacy Policy</h3>
+                        </section>
+                    </div>
+        <!--end-->
+            
+        <footer id="footer-hero" class="grid-con">        
+                <section id="footer-contact-info" class="col-span-full">
+                    <h3>Couples Resort</h3>
+                    <p>1198 Osprey Rd, (End of)<br>
+                        Minden, Soyers Lake, ON, <br>
+                        K0M 2K0
+                    </p>
+                    <p>
+                        Toll Free:+1 877 201-1156<br>
+                        FAX:+1 613 638 2217<br>
+                        E-mail: info@coupleresort.com
+                    </p>
+                </section>
+                <div id="footer-privacy" class="col-span-full line-separator">
+                    <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
+                </div>
+        </footer>
+
+        <script src="js/main.js"></script>   
+    </body>
+</html>
