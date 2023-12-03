@@ -87,6 +87,13 @@ input, textarea {
    color: #626262;
 }
 
+#main-nav ul li a:hover {
+   display: block;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   color: #871C15;
+}
+
 #main-nav ul li {
    border-bottom: 1px solid #efefef;
 }
@@ -101,6 +108,64 @@ input, textarea {
    margin-bottom: 10px;
 } 
 
+.active_menu{
+   color: #871C15;
+   font-weight: bold;
+   text-align: center;
+   padding: 10px 0 10px 0;
+
+}
+
+/*dining menu*/
+
+#dining-information {
+   background-color: #ffffff;
+   padding-top: 0px;
+   padding-bottom: 30px;
+}
+
+#dining{
+   margin-bottom: 20px;
+   
+}
+
+#dining-nav ul {
+   list-style: none;
+   padding: 0px 21px 2px 0;
+   width: 250px;
+   display: flex;
+   
+}
+
+
+.active_menu_dining {
+   color: #871C15;
+   font-weight: bold;
+   text-align: center;
+   padding: 0 0 10px 0;
+   border-bottom: #871C15 solid 5px;
+
+}
+
+#dining-nav ul li a {
+   padding: 0px 0 31px 50px;
+   text-align: center;
+   color: #626262;
+   border-bottom: #626262 solid 1px;
+   vertical-align: top;
+
+
+}
+
+
+#dining-nav ul li a:hover {
+   text-align: center;
+   color: #871C15;
+   vertical-align: top;
+}
+
+
+/*end*/
 
 
 #logo {
@@ -113,11 +178,6 @@ input, textarea {
 
 #hero {
    background: url(../images/hero-main.jpg) no-repeat;
-   height: 200px;
-}
-
-#hero_reservation {
-   background: url(../images/hero-reservation.jpg) no-repeat;
    height: 200px;
 }
 
@@ -418,20 +478,70 @@ input, textarea {
 
 
 
-/* 8. ---Reservation--- */
+/* 8. ---Reservation and Dining--- */
 
-#reservation-hero-information p {
+#hero_meals {
+   background: url(../images/dining_page_hero.jpg) no-repeat;
+   height: 200px;
+   margin-top: 20px;
+
+}
+
+#hero_reservation {
+   background: url(../images/hero-reservation.jpg) no-repeat;
+   height: 200px;
+}
+
+#hero_dining {
+   background: url(../images/dining_page_hero.jpg) no-repeat;
+   height: 200px;
+}
+
+#dining-information p {
    margin-bottom: 20px;
    font-size: 14px;
    line-height: 22px;
 }
 
+#dining-course-meal h3 {
+   margin-bottom: 15px;
+}
+
+#dining-course-meal p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 23px;
+}
+
+#mwine-hero-con {
+   background: url(../images/gourmet_meals_hero.jpg);
+   height: 195px;
+   background-repeat: no-repeat;
+}
+
+#dining-menu-information {
+   background-color: #ffffff;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#dining-menu-information h3 {
+margin-top: 20px;
+}
+
+#reservation-hero-information p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 10px;
+}
+
+#dining-information h3 {
+   margin-bottom: 15px;
+}
 
 #reservation-hero-information h3 {
    margin-bottom: 15px;
 }
-
-
 
 #reservations-hero_form form {
    display: flex;
@@ -464,10 +574,42 @@ input, textarea {
    font-style:italic ;
 }
 
-#nights_form input [type="number"] {
-   width: 50px;
+#reservations-hero_form input[type="submit"]:hover {
+   padding: 20 px 0px;
+   background: #C54242;
+   color: #fff;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 380px;
+   align-self: flex-end;
+   font-style:italic ;
 }
 
+#meals-information {
+   background-color: #ffffff;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#dining-course-meal {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 20px;
+   margin-top: 5px;
+}
+
+#important_information {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 20px;
+   margin-top: 5px;
+}
+
+#mportant_information p{
+   color: #9a2018;
+   font-size: 16px;
+   font-weight: bold;
+}
 
 /* 9. ---Footer--- */
 
@@ -563,6 +705,19 @@ input, textarea {
    padding-top: 35px;
    padding-bottom: 30px;
 }
+
+#dining-information {
+   background-color: #ffffff;
+   padding-top: 5px;
+   padding-bottom: 30px;
+}
+
+
+#dining-menu h3 {
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
 
 #reservation-information p {
    font-size: 13px;
