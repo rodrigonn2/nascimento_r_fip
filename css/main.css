@@ -46,6 +46,12 @@ input, textarea {
    color: #9a2018;
 }
 
+.a_text {
+text-decoration: none;
+color: #871C15;
+font-weight: bold;
+}
+
 
 /* 2. ---Main Nav--- */
 
@@ -142,7 +148,7 @@ input, textarea {
    color: #871C15;
    font-weight: bold;
    text-align: center;
-   padding: 0 0 10px 0;
+   padding: 0 0 8px 0;
    border-bottom: #871C15 solid 5px;
 
 }
@@ -151,7 +157,7 @@ input, textarea {
    padding: 0px 0 31px 50px;
    text-align: center;
    color: #626262;
-   border-bottom: #626262 solid 1px;
+   border-bottom: #E8E7E7 solid 1px;
    vertical-align: top;
 
 
@@ -481,9 +487,16 @@ input, textarea {
 /* 8. ---Reservation and Dining--- */
 
 #hero_meals {
-   background: url(../images/dining_page_hero.jpg) no-repeat;
+   background: url(../images/gourmet_meals_hero.jpg) no-repeat;
    height: 200px;
-   margin-top: 20px;
+   margin-top: 30px;
+
+}
+
+#hero_wine {
+   background: url(../images/wine_awards_hero.jpg) no-repeat;
+   height: 200px;
+   margin-top: 40px;
 
 }
 
@@ -498,6 +511,12 @@ input, textarea {
 }
 
 #dining-information p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#dining-wine-information p {
    margin-bottom: 20px;
    font-size: 14px;
    line-height: 22px;
@@ -521,8 +540,8 @@ input, textarea {
 
 #dining-menu-information {
    background-color: #ffffff;
-   padding-top: 35px;
-   padding-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 #dining-menu-information h3 {
@@ -538,6 +557,50 @@ margin-top: 20px;
 #dining-information h3 {
    margin-bottom: 15px;
 }
+
+#dining-wine-information h3 {
+   margin-bottom: 15px;
+   margin-top: 30px;
+}
+
+#meals-information {
+   background-color: #ffffff;
+   margin-top: 30px;
+}
+
+#dining-course-meal {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 20px;
+   margin-top: 24px;
+}
+
+#dining-course-meal-information {
+   background-color: #f4f4f4;
+   padding-top: 9px;
+   padding-bottom: 11px;
+   margin-top: 5px;
+}
+
+#dining-course-meal-information p {
+   color:#626262;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+
+.important_information{
+   color: #9a2018;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#meals-wine-information {
+   background-color: #ffffff;
+   padding-top: 35px;
+   padding-bottom: 5px;
+}
+
 
 #reservation-hero-information h3 {
    margin-bottom: 15px;
@@ -556,6 +619,8 @@ margin-top: 20px;
    margin-bottom: 30px;
    font: inherit;
    width: auto;
+   
+   
 }
 
 #reservations-hero_form textarea {
@@ -571,45 +636,46 @@ margin-top: 20px;
    transition: all 200ms ease-in;
    width: 380px;
    align-self: flex-end;
-   font-style:italic ;
+   font-style:italic;
+   
 }
 
 #reservations-hero_form input[type="submit"]:hover {
-   padding: 20 px 0px;
-   background: #C54242;
-   color: #fff;
-   border: none;
-   transition: all 200ms ease-in;
-   width: 380px;
-   align-self: flex-end;
-   font-style:italic ;
+   background-color: #C54242;
+   border-radius: 0;
 }
 
-#meals-information {
-   background-color: #ffffff;
-   padding-top: 35px;
-   padding-bottom: 30px;
+input[type="checkbox"]{
+   width: 1.5em;
+   height: 1.5em;
+   background-color: white;
+   border: 0px solid red;
+   border-radius: 20px;
+   margin-left: 2px;
+   margin-right: 16px;
+   margin-top: -1px;
+   float: left;
+
+
+}
+   
+input[type="checkbox"]:checked + span::after {
+   content: '\❤️';
+   color: #ffffff;
+   width: 10px;
+   height: 10px;
+   top: 0px;
+   margin-right: 10px;
+   font-size: 20px;
+   animation: fadeIn 0.7s;
+   float: right;
 }
 
-#dining-course-meal {
-   background-color: #f4f4f4;
-   padding-top: 35px;
-   padding-bottom: 20px;
-   margin-top: 5px;
+#formterms{
+   font-size: 14px;
 }
 
-#important_information {
-   background-color: #f4f4f4;
-   padding-top: 35px;
-   padding-bottom: 20px;
-   margin-top: 5px;
-}
 
-#mportant_information p{
-   color: #9a2018;
-   font-size: 16px;
-   font-weight: bold;
-}
 
 /* 9. ---Footer--- */
 
@@ -709,7 +775,12 @@ margin-top: 20px;
 #dining-information {
    background-color: #ffffff;
    padding-top: 5px;
-   padding-bottom: 30px;
+   padding-bottom: 5px;
+}
+
+#dining-wine-information {
+   background-color: #ffffff;
+   
 }
 
 
