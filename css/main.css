@@ -308,7 +308,7 @@ font-weight: bold;
 }
 
 .why-choose-us-image-con p {
-   font-size: 12px;
+   font-size: 13px;
    margin-bottom: 20px;
    line-height: 20px;
 }
@@ -417,8 +417,9 @@ font-weight: bold;
 /* 7. ---Contact--- */
 
 #contact-hero-con {
-   background: url(../images/contact-hero.jpg);
+   background: url(../images/contact-hero.jpg) no-repeat;
    height: 195px;
+   margin-top: 30px;
 }
 
 #contact-hero-heading-box {
