@@ -26,6 +26,12 @@ Couples Resort Responsive Build
    border-radius: 10px;
 } 
 
+header{
+
+      position: sticky; top: 0;
+      background-color: white;
+}
+
 body {
    color: #626262;
    font-family: 'Sanchez', 'Times New Roman', serif;
@@ -130,6 +136,45 @@ font-weight: bold;
    padding-bottom: 30px;
 }
 
+#dining-information_meals {
+   background-color: #ffffff;
+   padding-top: 0px;
+   padding-bottom: 30px;
+}
+
+#dining-information_meals p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#dining-information_meals h3 {
+   margin-bottom: 15px;
+}
+
+#dining-information_wine {
+   background-color: #ffffff;
+   padding-top: 0px;
+   padding-bottom: 30px;
+}
+
+#dining-information_meals_wine {
+   background-color: #ffffff;
+   padding-top: 0px;
+   padding-bottom: 30px;
+}
+
+#dining-information_meals_wine p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#dining-information_meals_wine h3 {
+   margin-bottom: 15px;
+}
+
+
 #dining{
    margin-bottom: 20px;
    
@@ -198,6 +243,7 @@ font-weight: bold;
    font-style: italic;
    transition:all 0.3s ease;
    cursor: pointer;
+   
 }
 
 .book-now:hover {
@@ -206,6 +252,11 @@ font-weight: bold;
 
 #book-now-hero {
    height: 67px;
+}
+
+#book-now-hero a {
+   text-decoration: none;
+   color: #ffffff;
 }
 
 #hero-heading-box {
@@ -479,7 +530,7 @@ font-weight: bold;
 }
 
 #contact-hero-form input[type="submit"]:hover {
-   background-color: #626262;
+   background-color: #C54242;
    border-radius: 0;
 }
 
@@ -565,6 +616,11 @@ margin-top: 20px;
 }
 
 #meals-information {
+   background-color: #ffffff;
+   margin-top: 30px;
+}
+
+#meals-information_text {
    background-color: #ffffff;
    margin-top: 30px;
 }
@@ -773,11 +829,6 @@ input[type="checkbox"]:checked + span::after {
    padding-bottom: 30px;
 }
 
-#dining-information {
-   background-color: #ffffff;
-   padding-top: 5px;
-   padding-bottom: 5px;
-}
 
 #dining-wine-information {
    background-color: #ffffff;
@@ -825,7 +876,7 @@ input[type="checkbox"]:checked + span::after {
 /* 11 FAQ Itens */
 
 #faq-con h2 {
-   font-size: 14px;
+   font-size: 24px;
    margin-bottom: 20px;
 }
 
