@@ -2,9 +2,9 @@
 This is the repository for the Final Integrated Project(FIP) - "Couples Resort" New design.
 
 ### Content
-HTML pages (home, dining and reservations)
-CSS Style File
-Assets (Wireframes and Prototypes)
+* HTML pages (home, dining and reservations)
+* CSS Style File
+* Assets (Wireframes and Prototypes)
 
 
 ### Author
