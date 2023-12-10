@@ -698,9 +698,34 @@ margin-top: 20px;
 }
 
 #reservations-hero_form input[type="submit"]:hover {
-   background-color: #C54242;
-   border-radius: 0;
+  animation-name: reservation_up;
+  animation-duration:1s;
+  animation-timing-function: ease-in-out;
+   
 }
+
+@keyframes reservation_up {
+   0% {
+     margin-top: 0px; 
+     background-color: rgb(248, 71, 71);
+   }
+ 
+   50% {
+     margin-top: 10px;
+     background-color: rgb(250, 141, 141);
+   }
+
+   70% {
+      margin-top: 5px;
+      background-color: rgb(250, 141, 141);
+    }
+ 
+   100% {
+     margin-top: 0px;
+     background-color: rgb(250, 141, 141);
+   }
+ 
+ }
 
 input[type="checkbox"]{
    width: 1.5em;
