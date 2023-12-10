@@ -719,6 +719,11 @@ margin-top: 20px;
       margin-top: 5px;
       background-color: rgb(250, 141, 141);
     }
+
+    80% {
+      margin-top: 2px;
+      background-color: rgb(250, 141, 141);
+    }
  
    100% {
      margin-top: 0px;
